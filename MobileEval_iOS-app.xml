@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <application xmlns="http://ns.adobe.com/air/application/3.2">
-    <id>MobileEval-iOS</id>
-    <versionNumber>1.0</versionNumber>
+    <id>MobileEval</id>
+    <versionNumber>0.8</versionNumber>
     <filename>GeoVISTA Symbol Evaluation</filename>
     <description></description>
     <!-- To localize the description, use the following format for the description element.
@@ -33,16 +33,16 @@
     <customUpdateUI>false</customUpdateUI>
     <allowBrowserInvocation>false</allowBrowserInvocation>
     <icon>
-        <image512x512>app%20icons/512.png</image512x512>
         <image48x48>app%20icons/48.png</image48x48>
         <image72x72>app%20icons/72.png</image72x72>
-        <image114x114>app%20icons/114.png</image114x114>
-        <image57x57>app%20icons/57.png</image57x57>
-        <image29x29>app%20icons/29.png</image29x29>
     </icon>
     <iPhone>
         <requestedDisplayResolution>high</requestedDisplayResolution>
         <InfoAdditions><![CDATA[<key>UIDeviceFamily</key><array><string>2</string></array>]]></InfoAdditions>
     </iPhone>
     <supportedLanguages>en</supportedLanguages>
+    <android>
+        <manifestAdditions><![CDATA[<manifest><uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/></manifest>]]></manifestAdditions>
+    </android>
+    <versionLabel></versionLabel>
 </application>
