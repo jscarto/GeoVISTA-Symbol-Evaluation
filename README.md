@@ -1,6 +1,6 @@
-iOS-Evaluation
+GeoVISTA-Symbol-Evaluation
 ==============
 
-iOS App for evaluating GeoVISTA and HSWG Symbology.
+Mobile (Adobe AIR) app for evaluating GeoVISTA and HSWG Symbology.
 
 Most files are binaries. May be refactored into several scripts later on.
