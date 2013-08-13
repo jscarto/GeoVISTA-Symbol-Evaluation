@@ -41,7 +41,6 @@
         <requestedDisplayResolution>high</requestedDisplayResolution>
         <InfoAdditions><![CDATA[<key>UIDeviceFamily</key><array><string>2</string></array>]]></InfoAdditions>
     </iPhone>
-    <supportedLanguages>en</supportedLanguages>
     <android>
         <manifestAdditions><![CDATA[<manifest><uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/></manifest>]]></manifestAdditions>
     </android>
